@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="submit.html">
+    <link rel="stylesheet" href="media.css">
+    <title>Clone Form</title>
+</head>
+<body>
+    <form action="submit.html">
+        <div class="maincontainer">
+            <div class="introduction">
+                <div class="topic box">
+                    <div class="subject">
+                        <p><strong> Web Technologies </strong>(21CIC54L) Course Exit Survey Form for 5th Semester July-Dec 2023</p>
+                    </div>
+                    <div class="about">
+                        <p>Dear students,</p>
+                        <p>Submit feedback refarding the <strong>Web Technologies</strong> Lab course you have just completed.</p>
+                        <p>Department: <i>Department of Information Science and Engineering,</i></p>
+                        <p>Batch &Semester: <i>5th Semester 20212 Batch</i></p>
+                        <p>Course Code: <i>21CIC54L</i></p>
+                        <p>Course Name: <i>Web Technologies</i></p>
+                        <p>Course Faculty: Prof. Azhar Hussain Mozumder</p>
+                    </div>
+                </div>
+                <div class="account box">
+                    <strong>21BTRIS043@gmail.com <a href="#">Switch account</a></strong>
+                </div>
+                <div class="note box"><p>* Indicates required question</p></div>
+            </div>
+            <div class="questioncontainer">
+                <div class="email questionbox">
+                    <div class="emailcheck">
+                        <input type="checkbox" name="Email" id="mail" required>
+                    </div>
+                    <label for="mail" class="content">Record 21btris043@gmail.com as the email to be included with my response</label>
+                </div>
+                <div class="username questionbox">
+                    <label for="name">Student Name</label><br>
+                    <input type="text" name="Username" id="name" required placeholder=" Your answer" class="textbox">
+                </div>
+                <div class="extranote questionbox">
+                    <p><strong>Note:</strong>This is an exit survey survey for the course. It aims to understand how well did you learn and attain the desired course outcomes. You are required to mark the options that applies to you the best.</p>
+                </div>
+                <div class="question1 questionbox">
+                    <p>1.Quality of the Courses Content</p>
+                    <input type="radio" name="firstque" id="one">
+                    <label for="one">Excellent</label><br>
+                    <input type="radio" name="firstque" id="two">
+                    <label for="two">Very Good</label><br>
+                    <input type="radio" name="firstque" id="three">
+                    <label for="three">Good</label><br>
+                    <input type="radio" name="firstque" id="four">
+                    <label for="four">Satisfactory</label><br>
+                    <input type="radio" name="firstque" id="five">
+                    <label for="five">Poor</label>
+                </div>
+                <div class="question2 questionbox" >
+                    <p>2. Relevance of the textbook to this course.</p>
+                    <input type="radio" name="secondque" id="one" required>
+                    <label for="one">Excellent</label><br>
+                    <input type="radio" name="secondque" id="two" required>
+                    <label for="two">Very Good</label><br>
+                    <input type="radio" name="secondque" id="three"  required>
+                    <label for="three">Good</label><br>
+                    <input type="radio" name="secondque" id="four" required>
+                    <label for="four">Satisfactory</label><br>
+                    <input type="radio" name="secondque" id="five"required>
+                    <label for="five"> Poor</label>
+                </div>
+                <div class="question3 questionbox">
+                    <p>3. Which of the following you found most effictive for your learning fo the course? You can check multiple options.</p>
+                    <input type="checkbox" name="thirdque" id="one1">
+                    <label for="one1">Lecturers</label><br>
+                    <input type="checkbox" name="thirdque" id="two2">
+                    <label for="two2">Programming</label><br>
+                    <input type="checkbox" name="thirdque" id="three3">
+                    <label for="three3">Assignments</label><br>
+                    <input type="checkbox" name="thirdque" id="four4">
+                    <label for="four4">Presentations</label><br>
+                    <input type="checkbox" name="thirdque" id="five5">
+                    <label for="five5">Tutorials</label>
+                </div>
+                <input type="submit" class="submit" value="Submit">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
