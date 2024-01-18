@@ -1,0 +1,62 @@
+/* adding responsiveness for mobile */
+@media screen and (max-width:376px),(max-height:668px){
+    *{
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
+        .topic{
+            width: 100%;
+        }
+        .subject{
+            font-size: 18px;
+        }
+        .box{
+            width: 375px;
+            border: 1px solid rgb(218,220,224);
+            background-color: #fff;
+        }
+        .introduction{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .about{
+            font-size: 15px;
+        }
+        .account{
+            font-size: 16px;
+            padding-top: 15px;
+        }
+        .note{
+            font-size: 16px;
+            color: rgb(225, 60, 60);
+        }
+        .questioncontainer{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .questionbox{
+            width: 375px;
+        }
+        .submit{
+            margin-left:70%;
+        }
+        input[type="checkbox"]{
+            width: 15px;
+            height: 15px;
+        }
+        .email{
+            padding-top: 30px;
+        }
+        .emailcheck{
+            padding-top: 10px;
+        }
+        .question1{
+            margin: 10px;
+        }
+        .question2{
+            margin-bottom: 10px;
+        }
+    }
+}
