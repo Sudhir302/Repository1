@@ -1,0 +1,125 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(212, 181, 241);
+}
+form{
+    display:flex;
+    justify-content: center;
+    margin-top: 3%;
+    flex-wrap: wrap;
+}
+.box{
+    width: 640px;
+    border: 1px solid rgb(218,220,224);
+    background-color: #FFF;
+}
+.introduction{
+    align-self: center;
+}
+.topic{
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.5;
+    border-radius: 10px;
+    border-top: 9px solid #673AB7;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.subject{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.about{
+    margin: 20px;
+    margin-top: 0px;
+    font-size: 15px;
+}
+.account{
+    height: 50px;
+    padding: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 1;
+}
+.note{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    height: 50px;
+    padding: 20px;
+    padding-top: 10px;
+    font-size: 19px;
+    color: red;
+}
+.quetioncontainer{
+    font-size: 17px;
+}
+.questionbox{
+    width: 640px;
+    border: 1px solid rgb(218,220,224);
+    background-color: #FFF;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.email{
+    margin-top: 20px;
+    height: 110px;
+    padding: 20px;
+    padding-top: 50px;
+    display: flex;
+    font-size: 1em;
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+.content{
+    padding-left: 10px;
+    font-size: 17px;
+}
+.username{
+    height: 110px;
+}
+.username{
+    padding: 20px;
+}
+.textbox{
+    border: none;
+    border-bottom: 1px solid  #958787;
+    padding-top: 15px;
+    width: 300px;
+    font-size: 15px;
+}
+.extranote{
+    padding: 20px;
+}
+.question1{
+    padding: 20px;
+    line-height: 1.5;
+}
+.question2{
+    padding: 20px;
+    line-height: 1.5;
+}
+.question3{
+    padding: 20px;
+    line-height: 1.5;
+}
+.submit{
+    width: 95px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    margin: 10px;
+}
+
