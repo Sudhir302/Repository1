@@ -1,5 +1,5 @@
 /* adding responsiveness for mobile */
-@media screen and (max-width:415px),(max-height:899px){
+@media screen and (max-width:415px),(max-height:668px){
     *{
         margin: 0;
         box-sizing: border-box;
